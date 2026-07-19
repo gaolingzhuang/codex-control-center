@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a reproducible problem in Codex Control Center
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Please remove private task names, prompts, paths, tokens, and account details from screenshots and logs.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      placeholder: 0.4.15
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: macOS 15.5
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the visible problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Click …
+        2. Select …
+        3. Observe …
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Menu bar
+        - Quota data
+        - Task usage
+        - Desktop widget
+        - Notifications
+        - Installation or build
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add sanitized screenshots or logs if they help.

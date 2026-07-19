@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.swift text diff=swift
+*.pbxproj text
+*.plist text
+*.svg text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
