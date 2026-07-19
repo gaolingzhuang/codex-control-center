@@ -1,0 +1,108 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B001 /* CodexProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* CodexProvider.swift */; };
+		B002 /* CodexResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* CodexResponseParser.swift */; };
+		B003 /* CodexTaskUsageReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* CodexTaskUsageReader.swift */; };
+		B004 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004 /* HistoryStore.swift */; };
+		B005 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005 /* Models.swift */; };
+		B006 /* UsageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006 /* UsageProvider.swift */; };
+		B007 /* WidgetSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007 /* WidgetSnapshotStore.swift */; };
+		B101 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101 /* AlertManager.swift */; };
+		B102 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102 /* AppController.swift */; };
+		B103 /* ControlCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103 /* ControlCenterView.swift */; };
+		B104 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F104 /* DashboardModel.swift */; };
+		B106 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F106 /* main.swift */; };
+		B201 /* CodexControlCenterWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = W001 /* CodexControlCenterWidget.swift */; };
+		B202 /* WidgetSnapshotReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = W002 /* WidgetSnapshotReader.swift */; };
+		B203 /* CodexControlCenterWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = PR2 /* CodexControlCenterWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		PX01 = {isa = PBXContainerItemProxy; containerPortal = PROJ; proxyType = 1; remoteGlobalIDString = TARG2; remoteInfo = CodexControlCenterWidget; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		COPY1 = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (B203, ); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexProvider.swift; sourceTree = "<group>"; };
+		F002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexResponseParser.swift; sourceTree = "<group>"; };
+		F003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexTaskUsageReader.swift; sourceTree = "<group>"; };
+		F004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		F005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageProvider.swift; sourceTree = "<group>"; };
+		F007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshotStore.swift; sourceTree = "<group>"; };
+		F101 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		F102 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		F103 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterView.swift; sourceTree = "<group>"; };
+		F104 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		F106 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		W001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexControlCenterWidget.swift; sourceTree = "<group>"; };
+		W002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshotReader.swift; sourceTree = "<group>"; };
+		I001 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		I002 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		PR1 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codex Control Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		PR2 = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CodexControlCenterWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FRAME1 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		FRAME2 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		MAIN = {isa = PBXGroup; children = (GCORE, GAPP, GWIDGET, GRES, PRODUCTS, ); sourceTree = "<group>"; };
+		GCORE = {isa = PBXGroup; children = (F001, F002, F003, F004, F005, F006, F007, ); path = Sources/CodexControlCenter; sourceTree = SOURCE_ROOT; };
+		GAPP = {isa = PBXGroup; children = (F101, F102, F103, F104, F106, ); path = Sources/CodexControlCenterApp; sourceTree = SOURCE_ROOT; };
+		GWIDGET = {isa = PBXGroup; children = (W001, W002, I002, ); path = WidgetExtension; sourceTree = SOURCE_ROOT; };
+		GRES = {isa = PBXGroup; children = (I001, ); path = Resources; sourceTree = SOURCE_ROOT; };
+		PRODUCTS = {isa = PBXGroup; children = (PR1, PR2, ); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TARG1 = {isa = PBXNativeTarget; buildConfigurationList = CAPP; buildPhases = (SOURCE1, FRAME1, RES1, COPY1, ); buildRules = (); dependencies = (DEP1, ); name = CodexControlCenter; productName = CodexControlCenter; productReference = PR1; productType = "com.apple.product-type.application"; };
+		TARG2 = {isa = PBXNativeTarget; buildConfigurationList = CWID; buildPhases = (SOURCE2, FRAME2, RES2, ); buildRules = (); dependencies = (); name = CodexControlCenterWidget; productName = CodexControlCenterWidget; productReference = PR2; productType = "com.apple.product-type.app-extension"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2600; LastUpgradeCheck = 2600; TargetAttributes = {TARG1 = {CreatedOnToolsVersion = 26.0; }; TARG2 = {CreatedOnToolsVersion = 26.0; }; }; }; buildConfigurationList = CPROJ; compatibilityVersion = "Xcode 14.0"; developmentRegion = zh_CN; hasScannedForEncodings = 0; knownRegions = (zh_CN, Base, ); mainGroup = MAIN; productRefGroup = PRODUCTS; projectDirPath = ""; projectRoot = ""; targets = (TARG1, TARG2, ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RES1 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		RES2 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SOURCE1 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B001, B002, B003, B004, B005, B006, B007, B101, B102, B103, B104, B106, ); runOnlyForDeploymentPostprocessing = 0; };
+		SOURCE2 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B201, B202, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEP1 = {isa = PBXTargetDependency; target = TARG2; targetProxy = PX01; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		PDBG = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; MACOSX_DEPLOYMENT_TARGET = 14.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = 6.0; }; name = Debug; };
+		PREL = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = 6.0; }; name = Release; };
+		ADBG = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = NO; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 28; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Resources/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.4.15; PRODUCT_BUNDLE_IDENTIFIER = local.codex-control-center; PRODUCT_NAME = "Codex Control Center"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0; }; name = Debug; };
+		AREL = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = NO; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 28; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Resources/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.4.15; PRODUCT_BUNDLE_IDENTIFIER = local.codex-control-center; PRODUCT_NAME = "Codex Control Center"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0; }; name = Release; };
+		WDBG = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = WidgetExtension/CodexControlCenterWidget.entitlements; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; CURRENT_PROJECT_VERSION = 28; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = WidgetExtension/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.4.15; PRODUCT_BUNDLE_IDENTIFIER = local.codex-control-center.widget; PRODUCT_NAME = CodexControlCenterWidget; SKIP_INSTALL = YES; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0; }; name = Debug; };
+		WREL = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = WidgetExtension/CodexControlCenterWidget.entitlements; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; CURRENT_PROJECT_VERSION = 28; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = WidgetExtension/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 0.4.15; PRODUCT_BUNDLE_IDENTIFIER = local.codex-control-center.widget; PRODUCT_NAME = CodexControlCenterWidget; SKIP_INSTALL = YES; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CPROJ = {isa = XCConfigurationList; buildConfigurations = (PDBG, PREL, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		CAPP = {isa = XCConfigurationList; buildConfigurations = (ADBG, AREL, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		CWID = {isa = XCConfigurationList; buildConfigurations = (WDBG, WREL, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJ;
+}

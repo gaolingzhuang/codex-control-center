@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an improvement or provider integration
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: User need
+      description: What problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the result from the user's point of view.
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Data and privacy impact
+      description: Note any new files, credentials, network services, or permissions this would require.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

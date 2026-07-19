@@ -1,0 +1,17 @@
+# macOS and Xcode user state
+.DS_Store
+**/xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local build and release artifacts
+work/
+outputs/
+*.zip
+
+# Local-only design iterations
+docs/plans/
